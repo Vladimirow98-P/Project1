@@ -14,35 +14,44 @@ body,
     border: 2px solid yellow;
     width: 1620px;
     margin: 0 auto;
+    position: relative;
 }
 
 header {
     background-color: #FBEDDA;
+    height: 1800px;
 }   
 
-header .img1 {
+.img {
     background-repeat: no-repeat;
     background-size: cover;
-    width: 2345.749267578125px;   
-    height: 1318.9112548828125px;
+    width: 2000.7px;   
+    height: 1000.9px;
+    position: absolute;
+    top: 847.67px;
+    left: -212.87px;
+    margin-top: 40px;
+}
+
+nav {
+    position: relative;
 }
 
 header .logo {
-    border: 1px solid red;
     font-size: 40px;
     color: black;
     font-weight: bold; 
     margin-right: 600px;
-}
-
-header nav {
-    border: 1px solid blue;
+    position: absolute;
+    top: 51px;
+    left: 150px;
 }
 
 header ul {
     display: inline-block;
     font-size: 18px;
-    margin-right: 125px;
+    margin-left: 600px;
+    margin-top: 61px;
 }
 
 header ul li {
@@ -65,6 +74,7 @@ header a {
     background-color: #13A6BA;
     border-radius: 8px;
     padding: 10.41px 25.18px;
+    margin-left: 120px;
 }
 
 h1 {
@@ -81,4 +91,137 @@ h1 {
     font-size: 20px;
     color: #677071;
 }
+
+.clik {
+    background-color: #fff;
+    width: 1273.4px;
+    height: 272.6px;
+    border-radius: 20px;
+    margin-top: 132.37px;
+    margin-left: 170px;
+}
+
+.arenda {
+    font-size: 28px;
+    padding-top: 45px;
+    padding-left: 54px;
+    position: relative;
+}
+
+.clll {
+    display: inline-block;
+    margin-right: 87px;
+}
+
+
+.rent, .buy, .sell {
+    color: #CCCFD0;
+}
+
+.rent:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.buy:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+.sell:hover {
+    color: black;
+    cursor: pointer;
+}
+
+input {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    appearance: none;
+    width: 75px;
+    height: 3px;
+    background-color: transparent;
+}
+
+input:checked {
+    background-color: black;
+}
+
+#control1 {
+    left: 4%;
+}
+#control2 {
+    left: 16%;
+}
+#control3 {
+    left: 27.5%;
+}
+
+.arenda .cl {
+    font-weight: 600;
+}
+
+.menu {
+    margin-top: 60px;
+    position: relative;
+
+}
+
+.fa-location-dot {
+    position: absolute;
+    top: 5px;
+    left: 60px;
+    color: #13A6BA;
+}
+
+.fa-key {
+    position: absolute;
+    top: 5px;
+    left: 420px;
+    color: #13A6BA;
+}
+
+.fa-tags {
+    position: absolute;
+    top: 5px;
+    left: 715px;
+    color: #13A6BA;
+}
+
+.cll {
+    display: inline-block;
+}
+
+.loc {
+    margin-left: 82px;
+}
+
+.btn_a {
+    margin-left: 67px;
+    font-size: 28px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 27px 55.66px;
+    position: absolute;
+    bottom: 0px;
+    left: 940px;
+}
+
+.prop, .aver {
+    margin-left: 170px;
+}
+
+.cll p {
+    font-size: 18px;
+    color: #677071;
+}
+
+.cll span {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+
 
