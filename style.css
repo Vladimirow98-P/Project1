@@ -222,6 +222,15 @@ input:checked {
     font-weight: 600;
 }
 
+.items,
+.items__item {
+    display: inline-block;
+}
+
+.img-item {
+    width: 472.3px;
+    height: 390.51px;
+}
 
 
 
