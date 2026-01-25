@@ -82,7 +82,6 @@ h1 {
     margin-top: 224.97px;
     line-height: 105px;
     text-align: center;
-    line-height: 105px;
 }
 
 .centr p {
@@ -144,7 +143,7 @@ input {
     background-color: transparent;
 }
 
-input:checked {
+.arenda input:checked {
     background-color: black;
 }
 
@@ -222,15 +221,217 @@ input:checked {
     font-weight: 600;
 }
 
+.properties {
+    margin-top: 154px;
+}
+
+h2 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 91px;
+}
+
+.estate__one {
+    font-size: 18px;
+    color: #677071;
+    font-weight: 400;
+    line-height: 29px;
+    margin-top: 21.45px;
+}
+
+.esta {
+    white-space: nowrap;
+    text-align: right;
+    position: relative;
+    color: #772D8B;
+}
+
+.est {
+    display: inline-block;
+    margin-right: 85px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.est:last-child {
+    margin-right: 0px;
+}
+
+.esta input[type="radio"] {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    appearance: none;
+    width: 13.48px;
+    height: 13.48px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.esta input[type="radio"]:checked {
+    background-color: #772D8B;
+}
+
+.esta input[type="radio"]::after {
+    content: "";
+    position: absolute;
+    width: 25.48px;
+    height: 25.48px;
+    border-radius: 50%;
+    border: 1px solid #CCCFD0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.esta input[type="radio"]:checked::after {
+    border-color: #772D8B;
+}
+
+#rent {
+    left: 77.3%;
+    top: 30%;
+}
+
+#buy {
+    left: 86.5%;
+    top: 30%;
+}
+
+#sell {
+    left: 95%;
+    top: 30%;
+}
+
+.rent__est, .buy__est, .sell__est {
+    color: #CCCFD0;
+}
+
+.rent__est:hover {
+    color: #772D8B;
+    cursor: pointer;
+ }
+
+
+.buy__est:hover {
+    color: #772D8B;
+    cursor: pointer;
+}
+
+.sell__est:hover {
+    color: #772D8B;
+    cursor: pointer;
+}  
+
 .items,
 .items__item {
     display: inline-block;
 }
 
 .img-item {
-    width: 472.3px;
-    height: 390.51px;
+    width: 452px;
+    height: 352px;
+    border-radius: 60px 60px 0 0;
 }
+
+
+.items {
+    margin-top: 98.8px;
+    white-space: nowrap;
+}
+
+.items__item {
+    border: 0px solid #fff;
+    border-radius: 40px;
+    width: 520px;
+    height: 840px;
+    margin-right: 16.8px;
+}
+
+.items__item:last-child {
+    margin-right: 0px;
+}
+
+.items__item:hover {
+    box-shadow: 2px 4px 55px #0000001C;
+    cursor: pointer;
+}
+
+.items__item, .img-item {
+    padding-top: 35.93px;
+    padding-left: 33.7px;
+    padding-right: 33.7px;
+}
+
+.items__zag {
+    margin-top: 46.13px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 33.7px;
+}
+
+.items__abz {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 33.7px;
+    color: #677071;
+}
+
+.items__price {
+    display: block;
+    margin-top: 30px;
+    font-size: 58px;
+    font-weight: 700;
+    margin-left: 33.7px;
+}
+
+.rooms {
+    margin-left: 33.7px;
+    margin-top: 3px;
+}
+
+.room {
+    display: inline-block;
+    margin-right: 48px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #CCCFD0;
+}
+
+.btn-details {
+    border: 2px solid #13A6BA;
+    border-radius: 20px;
+    color: #13A6BA;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    padding: 27px 140px;
+    display: block;
+    margin-top: 56px;
+}
+
+.btn-details:hover {
+    background-color: #13A6BA;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
