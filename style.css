@@ -418,6 +418,90 @@ h2 {
     cursor: pointer;
 }
 
+.benefit {
+    border: 1px solid red;
+    margin-top: 171.41px;
+}
+
+.benefit__discover {
+    display: inline-block;
+    position: relative;
+}
+
+.red-house {
+    width: 795px;
+    height: 883px;
+}
+
+.benefit__discover-place {
+    background-color: #fff;
+    box-shadow: 2px 4px 55px #0000001C;
+    width: 391.034px;
+    height: 191.58px;
+    position: absolute;
+    top: 640px;
+    left: -100px;
+    border-radius: 20px;
+}
+
+.benefit__discover-place .dis {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    margin-top: 36.08px;
+    margin-left: 39.98px;
+}
+
+.benefit__discover-place .san {
+    color: #CCCFD0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 100%;
+    margin-top: 4px;
+    margin-left: 39.98px;
+}
+
+.photo {
+    display: inline-block;
+    margin-right: 14.49px;
+}
+
+.foto {
+    width: 58.01px;
+    height: 54.59px;
+    border-radius: 5px;
+}
+
+.benefit__discover-photo {
+    margin-left: 39.98px;
+    margin-top: 18.84px;
+}
+
+.red-gal {
+    background-color: #F93633;
+    width: 58.01px;
+    height: 54.59px;
+    border-radius: 5px;
+    position: absolute;
+    top: 91px;
+    left: 269px;
+}
+
+.rectangle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.s-h2 {
+    width: 694.74px;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 91px;
+}
+
+
 
 
 
