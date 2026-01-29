@@ -419,7 +419,6 @@ h2 {
 }
 
 .benefit {
-    border: 1px solid red;
     margin-top: 171.41px;
 }
 
@@ -440,7 +439,7 @@ h2 {
     height: 191.58px;
     position: absolute;
     top: 640px;
-    left: -100px;
+    left: 0px;
     border-radius: 20px;
 }
 
@@ -494,12 +493,64 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
+.future-house {
+    position: relative;
+    bottom: 50px;
+}
+
+.future-house__protect {
+    margin-left: 220px;
+    
+}
+
 .s-h2 {
+    margin-bottom: 40px;
+    margin-left: 120px;
     width: 694.74px;
     font-size: 58px;
     font-weight: 700;
     line-height: 91px;
 }
+.items__zag-zag {
+    margin-bottom: 16px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.all {
+    color: #677071;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29x;
+
+}
+
+.fa-check,
+.fa-house,
+.fa-link {
+    color: #B3C41D;
+    font-size: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon {
+    position: relative;
+    width: 102px;
+    height: 103px;
+    background-color: rgb(211, 211, 211, 0.1);
+    margin-left: 120px;
+    display: block;
+    top: 100px;
+}
+
+
+
+
+
 
 
 
