@@ -526,7 +526,7 @@ h2 {
 
 }
 
-.fa-check,
+.fa-checkd,
 .fa-house,
 .fa-link {
     color: #B3C41D;
@@ -547,7 +547,79 @@ h2 {
     top: 100px;
 }
 
+.happening {
+    margin-top: 142.89px;
+}
 
+.happening__statistics {
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.w-h2 {
+    margin-top: 359.58px;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 91px;
+    width: 694.74px;
+    height: 180px;
+}
+
+.over {
+    margin-top: 42px;
+    color: #677071;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    width: 567.81px;
+    height: 151.81;
+}
+
+.description {
+    margin-top: 48px;
+}
+
+.description__quantity-effect {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.description__quantity-effect:last-child {
+    margin-right: 0%;
+}
+
+.quantity {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 59px;
+}
+
+.effect {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #677071;
+}
+
+
+
+
+
+
+.ipsum {
+    width: 501.25px;
+    height: 81.6px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 182%;
+    color: #677071;
+}
+
+.ellips {
+    width: 68.67px;
+    height: 68.67px;
+    border-radius: 50%;
+}
 
 
 
