@@ -812,12 +812,22 @@ h4 {
     width: 115.62px;
     height: 42.15px;
     display: inline-block;
-    padding-top: 7.08px;
-    padding-left: 18.08px;
     border: 1px solid #E0E2E3;
     border-radius: 10px;
     margin-top: 26.28px;
+    cursor: pointer;
+    background-color: #fff;
 }
+
+.btn-fol-mes:hover {
+    background-color: #772D8B;
+}
+
+.btn-fol-mes:active {
+    transform: scale(0.95);
+}
+
+
 
 .folcheck {
     font-size: 10.95px;
@@ -836,20 +846,9 @@ h4 {
     margin-left: 27.26px;
 }
 
-.fol-mes-l:hover {
-    background-color: #772D8B;
-    color: #fff;
-    border: none;
-}
-
  .fol-mes-r {
     margin-left: 22.09px;
  }
-
-a:hover {
-    background-color: #772D8B;
-    color: #fff;
-}
 
 .men-keb {
     position: absolute;
@@ -859,8 +858,78 @@ a:hover {
     color: #CCCFD0;
 }
 
+.customer-testimonials {
+    margin-top: 400px;
+    background-color: #FDF6ED;
+    position: relative;
+}
 
+.customer-testimonials__model {
+    width: 800px;
+    height: 1200px;
+    margin-top: -250px;
+}
 
+.customer-testimonials__quotes {
+    position: absolute;
+    top: 89.34px;
+    left: 1565px;
+    width: 182px;
+    height: 141px;
+}
 
+.customer-testimonials__slice {
+    position: absolute;
+    top: 218px;
+    left: 718px;
+    width: 98px;
+    height: 130px;
+}
 
+.customer-testimonials__cltest {
+    position: absolute;
+    top: 189.84px;
+    left: 964px;
+    color: #13A6BA;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 42px;
+}
 
+.customer-testimonials__q-h2 {
+    position: absolute;
+    top: 230.84px;
+    left: 964px;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 91px;
+    
+}
+
+.customer-testimonials__description {
+    position: absolute;
+    top: 460.62px;
+    left: 964px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.customer-testimonials__name {
+    position: absolute;
+    top: 729.5px;
+    left: 964px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.customer-testimonials__profession {
+    position: absolute;
+    top: 773.16px;
+    left: 964px;
+    color: #677071;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+}
